@@ -15,11 +15,12 @@ margin-left: 16%; /*maintain a good line spacing among inputs*/
 line-height:200%;
 
 }
-#years, #rate, #principal {
-    text-align: justify;
-    
-    
+
+.maindiv label {
+    display: inline-block;
+    width: 26.5%;
   }
+
 #bt{font-weight: bold;
      font-size: 12px;}
 
