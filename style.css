@@ -16,7 +16,7 @@ line-height:200%;
 
 }
 
-.maindiv label {
+.maindiv label {  /* to align the input boxes */
     display: inline-block;
     width: 26.5%;
   }
