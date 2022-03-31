@@ -1,4 +1,31 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
+h1{color:gray;font-family:verdana}
+.maindiv{
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    width:500px;
+    padding:20px;
+    border-radius: 25px;
+    margin: auto; /*align the main div in center */
+    
+}
+.sub{
+margin-left: 16%; /*maintain a good line spacing among inputs*/
+line-height:200%;
 
+}
+#years, #rate, #principal {
+    text-align: justify;
+    
+    
+  }
+#bt{font-weight: bold;
+     font-size: 12px;}
 
+.spa{  /* to make the line spacing for the result lines normal */
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height:normal;
+}
+mark {background-color: yellow;} /* Highlight the numbers in the result */
